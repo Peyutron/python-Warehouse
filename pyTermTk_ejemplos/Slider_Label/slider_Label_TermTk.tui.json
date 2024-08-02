@@ -1,0 +1,118 @@
+{
+ "type": "TTkUi/Document",
+ "version": "2.0.2",
+ "tui": {
+  "class": "TTkContainer",
+  "params": {
+   "Name": "wn1",
+   "Position": [
+    3,
+    2
+   ],
+   "Size": [
+    32,
+    16
+   ],
+   "Min Width": 0,
+   "Min Height": 0,
+   "Max Width": 65536,
+   "Max Height": 65536,
+   "Visible": true,
+   "Enabled": true,
+   "ToolTip": "",
+   "Padding": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "Layout": "TTkLayout"
+  },
+  "layout": {
+   "class": "TTkLayout",
+   "params": {
+    "Geometry": [
+     0,
+     0,
+     32,
+     16
+    ]
+   },
+   "children": [
+    {
+     "class": "TTkSlider",
+     "params": {
+      "Name": "sl1",
+      "Position": [
+       15,
+       5
+      ],
+      "Size": [
+       1,
+       7
+      ],
+      "Min Width": 1,
+      "Min Height": 3,
+      "Max Width": 1,
+      "Max Height": 126,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "",
+      "Orientation": 12,
+      "Value": 0,
+      "Minimum": 0,
+      "Maximum": 99,
+      "Single Step": 1,
+      "Page Step": 1
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    },
+    {
+     "class": "TTkLabel",
+     "params": {
+      "Name": "lb1",
+      "Position": [
+       6,
+       3
+      ],
+      "Size": [
+       20,
+       1
+      ],
+      "Min Width": 1,
+      "Min Height": 1,
+      "Max Width": 65536,
+      "Max Height": 65536,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "",
+      "Text": "0",
+      "Color": "\u001b[0m",
+      "Alignment": 4
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    }
+   ]
+  }
+ },
+ "connections": [
+  {
+   "sender": "sl1",
+   "receiver": "sl1",
+   "signal": "sliderMoved(int)",
+   "slot": "setValue(int)"
+  },
+  {
+   "sender": "sl1",
+   "receiver": "sl1",
+   "signal": "sliderMoved(int)",
+   "slot": "setValue(int)"
+  }
+ ]
+}
