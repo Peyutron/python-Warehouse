@@ -1,17 +1,18 @@
 from TermTk import TTkUtil, TTkUiLoader, TTk, TTkContainer, pyTTkSlot
 
 
-class Slider(TTkContainer):
+class Slider(TTkContainer): 
     def __init__(self):
-        self.count = 0
+
         # Datos generados usando ttkDesigner
         TTkUiLoader.loadDict(TTkUtil.base64_deflate_2_obj(
-    "eJxFUs9v0zAUTknatHTTujE4wGWXSeVS2v0FjDGBMINJrcYBcfCSpz4Lx67iZD+Qhjju8I7m/+XFyVgiy9/77e+z/yR/4zgK352fUnoFpVPWeOofzeazuae4qpVvQv1M" +
-    "S+c8ba1WP0+sqaQyUHoabGQpCxdSki+yAC65NgtPw3PrVNX0+uGnIhZPgJKl+gXBPBAToNGZMgffVF6hFxE9bayPoNZYNeboTN50wU9R1Gvi7OjirSe9UE5davD3lJ4a" +
-    "yShv4MpavVIbT5Gn9FzmuTLrMDRqf6DBZ3lr68rTiLl0uKaBbhEzwT6+xPSOSXwAW0BV3nblfO7KOxpmqHReQuAW8kOrpVY5a9JUTnFEsdMLj+Nm9I7oA263QqSAO6KH" +
-    "ExHjLu974jc+u8f9e3yOL2j8tVTA4gbhxBb1L6SuoREkZX1UURctljctzmi8ZH4aDpYVbLzo0ehcrv9bNcWlvW5K4szqUMq220jTpKbs63DdshgGQS5BP5LQlw8kBiLu" +
-    "SOyL3gOJHu6G28C9dnukkqzghjXu8SPqn1ht+bEkr77PC5b9WKu1KZinF0mNMxHhG15zbrbgo0Bd0zizxkDWyOA6kWngwAR9D2lYQgbqqjUGjrtJ7WniwgWc2SvIp8pU" +
-    "r3mi05YPse2gCkq27sD2LR7iMa93eILv8ZTHzv4B/W0JdA=="), self)
+    "eJx1Ultv0zAUTpa0adfdGUzbJNQn1L2MjWcugoqL8MoKjbYHxIOXWLWFY1dxMjakIR774Efz9/gtHNvZBSESWT4X2+f7vnN+xr9+R4H7rsxAJ+ekVEwKo1tP9g/2D4yO" +
+    "qpoZm2plHCtl9FKafh1KUWEmSGl0e4ZLXCh3JP6AC2L04ghyp0zk8pvRnbFUrLJPfjEDtIBCouMJ+06c+xjtEN0dMdE/ZXlFDQrgMnjvCJvSyrrdEb5oku+DILR5CDR5" +
+    "H0lOmGJnnJi5Tl4LDFZuzVRKnrKZ0YHRyRjnORNTVzTwP9HtI3wp68roLlBq7Fq3ubeAEG3RHZpcAYm3RBakKi+b64C7Mkp3Msp4XhLLzR13LzXM7cUB7f4V6tn6PRQT" +
+    "umytbbRC6CoK6BqsdceGbvjt3pxuzul9+oBu2ZMRCu1P6Dbd0e1XssxB+7lupawC4nplwhlE+o/6R/iMcGiSr9h/w/FUWZ2CTk1371CiDz2TLbQITGgfingGHaeFfeSa" +
+    "QMTPDhvotn0e+qa1VlEI0MP/QddxSi5A3hDGqDWUXMK4xLufDwpQ/CVnU1EQAU2Oax2VoA50O8okt3sCvpphYVCoE4g1dn0rsid8i1Hxwxt5FxqMIUquMUZ0HfYN9OMO" +
+    "ut5xyQAAdsOJlnTrBPOauPIwg6yoC2/jC29nujeBGeKkP6nIzELrjvH0xqvpU+jiM1jPodQLCJB/Q7iudS+TQpDMllXG667bigjHZ6g7JckIO/dOW4FMGBq6phzhkTwn" +
+    "+YCJag+kVFyCusuKVA65DzuNjumQjmF9pJ/ohKaAZP8PrFNMwg=="), self)
 
         # TTkLabel
         self.lb01 = self.getWidgetByName("lb1")
