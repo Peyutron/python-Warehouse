@@ -1,0 +1,219 @@
+{
+ "type": "TTkUi/Document",
+ "version": "2.0.2",
+ "tui": {
+  "class": "TTkContainer",
+  "params": {
+   "Name": "MainWindow",
+   "Position": [
+    4,
+    2
+   ],
+   "Size": [
+    98,
+    27
+   ],
+   "Min Width": 0,
+   "Min Height": 0,
+   "Max Width": 65536,
+   "Max Height": 65536,
+   "Visible": true,
+   "Enabled": true,
+   "ToolTip": "",
+   "Padding": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "Layout": "TTkLayout"
+  },
+  "layout": {
+   "class": "TTkLayout",
+   "params": {
+    "Geometry": [
+     0,
+     0,
+     98,
+     27
+    ]
+   },
+   "children": [
+    {
+     "class": "TTkWindow",
+     "params": {
+      "Name": "Twin",
+      "Position": [
+       4,
+       1
+      ],
+      "Size": [
+       59,
+       23
+      ],
+      "Min Width": 0,
+      "Min Height": 0,
+      "Max Width": 65536,
+      "Max Height": 65536,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "",
+      "Padding": [
+       3,
+       1,
+       1,
+       1
+      ],
+      "Layout": "TTkLayout",
+      "Border": true,
+      "Title": "",
+      "Window Flags": 134217728
+     },
+     "layout": {
+      "class": "TTkLayout",
+      "params": {
+       "Geometry": [
+        0,
+        0,
+        57,
+        19
+       ]
+      },
+      "children": [
+       {
+        "class": "TTkLabel",
+        "params": {
+         "Name": "lb1",
+         "Position": [
+          1,
+          0
+         ],
+         "Size": [
+          22,
+          1
+         ],
+         "Min Width": 7,
+         "Min Height": 1,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "No file",
+         "Color": "\u001b[0m",
+         "Alignment": 0
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkFileButtonPicker",
+        "params": {
+         "Name": "Tfpicker_open",
+         "Position": [
+          1,
+          1
+         ],
+         "Size": [
+          20,
+          3
+         ],
+         "Min Width": 11,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Open file",
+         "Border": true,
+         "Checkable": false,
+         "Checked": false,
+         "Path": ".",
+         "Caption": "File Dialog",
+         "Filters": "All Files (*)",
+         "Accept Mode": 0,
+         "File Mode": 0
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkFileButtonPicker",
+        "params": {
+         "Name": "Tfpicker_save",
+         "Position": [
+          22,
+          1
+         ],
+         "Size": [
+          20,
+          3
+         ],
+         "Min Width": 2,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "",
+         "Border": true,
+         "Checkable": false,
+         "Checked": false,
+         "Path": ".",
+         "Caption": "File Dialog",
+         "Filters": "All Files (*)",
+         "Accept Mode": 0,
+         "File Mode": 0
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkTextEdit",
+        "params": {
+         "Name": "textedit",
+         "Position": [
+          1,
+          5
+         ],
+         "Size": [
+          49,
+          13
+         ],
+         "Min Width": 0,
+         "Min Height": 0,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Line Number": false,
+         "Line Number Starting": 0,
+         "Read Only": false,
+         "Multi Line": true
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       }
+      ]
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    }
+   ]
+  }
+ },
+ "connections": []
+}
