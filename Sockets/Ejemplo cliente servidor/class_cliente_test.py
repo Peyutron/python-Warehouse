@@ -119,7 +119,7 @@ class hiloCliente(threading.Thread):
 ## Inicia el programa cliente
 if __name__ == '__main__':
 	# Establece conexión con el servidor
-	cliente = clienteSocket("192.168.1.51", 1314, 1)
+	cliente = clienteSocket("192.168.0.25", 1314, 1)
 
 	# Inicia la conexión con el servidor
 	estado = cliente.iniciar()
