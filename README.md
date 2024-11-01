@@ -19,6 +19,7 @@
 * Slider_Label
 * gps6mv2_termtk_interface
 
-Raspberry_Python ->
-          * pwm_fan_rpi3
-          * rpi3_healt_system
+##Raspberry_Python:
+
+* pwm_fan_rpi3
+* rpi3_healt_system
