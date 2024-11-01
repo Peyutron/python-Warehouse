@@ -5,10 +5,11 @@
 * DCCEX comando l -> Test para probar las velocidades del comando "l" 
 
 ## Sockets:
-          * Ejemplo cliente servidor
-          * adx345_socket_server
-          * gps6mv2_socket_client
-          * gps_adxl_socket_server
+
+* Ejemplo cliente servidor
+* adx345_socket_server
+* gps6mv2_socket_client
+* gps_adxl_socket_server
 
 ## PyTermTk_ejemplos:
 
