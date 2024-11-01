@@ -11,6 +11,9 @@
  * - ADXL345: https://github.com/adafruit/Adafruit_ADXL345
  * - NEO6MV2: https://github.com/mikalhart/TinyGPSPlus
  *
+ * Toda la información sobre el proyecto:
+ * https://www.infotronikblog.com/2024/11/esp8266-adxl345-y-openstreetmaps-con.html
+ *
  * Software desarollado por Carlos Muñoz para https://www.infotronikblog.com
  * Fecha: 01/11/2024
  *
